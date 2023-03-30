@@ -1,0 +1,18 @@
+.discountContainer{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 5vh;
+    width: 100vw;
+    background-color: rgb(244, 236, 236);
+    margin-right: 10vw;
+}
+.TakeAction{
+    color:#7E8139;
+    font-weight: 500;
+}
+.discountContainer p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bolder;
+    font-size: 0.7rem;
+}

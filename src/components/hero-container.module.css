@@ -1,0 +1,87 @@
+.stressFreeInvesting {
+    position: relative;
+    line-height: 120%;
+  }
+  .loremIpsumDolor {
+    position: relative;
+    font-size: var(--paragraph-28-size);
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+  }
+  .joinTheWaitlist {
+    position: relative;
+    font-size: var(--heading-16-size);
+    font-family: var(--paragraph-20);
+    color: var(--white);
+    text-align: center;
+  }
+  .joinTheWaitlistWrapper {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-base);
+    background-color: var(--brand-blue);
+    border-radius: var(--br-13xl);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .stressFreeInvestingParent {
+    position: absolute;
+    top: calc(50% - 163px);
+    left: calc(50% - 418.5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-13xl);
+  }
+  .rupeeGoldCoin {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 304.09px;
+    height: 341.09px;
+    object-fit: cover;
+  }
+  .percentCoin1 {
+    bottom: 139px;
+    left: 119px;
+    width: 220px;
+    height: 220px;
+  }
+  .arrowCoin1,
+  .fCoin2,
+  .percentCoin1 {
+    position: absolute;
+    object-fit: cover;
+  }
+  .arrowCoin1 {
+    right: 69px;
+    bottom: 147px;
+    width: 228px;
+    height: 228px;
+  }
+  .fCoin2 {
+    top: 1px;
+    right: -53px;
+    width: 340px;
+    height: 340px;
+  }
+  .hero {
+    align-self: stretch;
+    position: relative;
+    border-radius: 0 0 var(--br-61xl) var(--br-61xl);
+    background-color: var(--white);
+    height: 760px;
+    flex-shrink: 0;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--heading-80-size);
+    color: var(--brand-blue);
+    font-family: var(--paragraph-20);
+  }
+  
