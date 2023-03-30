@@ -79,6 +79,7 @@
     background-color:navy;
     font-family: 'Open Sans', sans-serif;
     border-radius:25px;
+    font-weight: bold;
     justify-content: flex-end;
   }
   .navBar {
