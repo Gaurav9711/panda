@@ -1,0 +1,90 @@
+.frameIcon {
+    position: relative;
+    width: 6vw;
+    height: 3vh;
+    margin-left: 15px;
+    /* flex-shrink: 0; */
+    /* overflow: hidden; */
+  }
+  .invest {
+    position: relative;
+    font-size: var(--heading-16-size);
+    font-family: var(--paragraph-20);
+    color: navy;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 15px;
+  }
+  .chevronDownIcon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .investParent {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xs);
+  }
+  .frameWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .blogsWrapper,
+  .frameWrapper {
+    /* align-self: stretch; */
+    padding: var(--padding-9xl) var(--padding-5xl);
+  }
+  .blogsWrapper,
+  .frameParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .frameParent{
+    margin-right: 15vw;
+    color: navy;
+  }
+  .bestInvestmentOptions {
+    position: relative;
+    font-size: var(--heading-16-size);
+    font-family: var(--paragraph-20);
+    color: var(--white);
+    text-align: center;
+  }
+  .bestInvestmentOptionsWrapper,
+  .navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .bestInvestmentOptionsWrapper {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-base);
+    background-color: var(--brand-blue);
+    border-radius: var(--br-13xl);
+    justify-content: flex-end;
+  }
+  .navBar {
+    background-color: var(--white);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 1661px;
+    height: 80px;
+    flex-shrink: 0;
+    overflow: hidden;
+    padding: 0 var(--padding-53xl);
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  
