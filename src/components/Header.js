@@ -23,8 +23,8 @@ const Header = () => {
                     <div className={styles.invest}>About</div>
                 </div>
             </div>
-            <button >
-                <div className="BestInvestmentOptions">
+            <button className={styles.BIOButton}>
+                <div className="BIO">
                     Best Investment Options
                 </div>
             </button>

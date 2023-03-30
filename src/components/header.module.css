@@ -1,13 +1,14 @@
 .frameIcon {
     position: relative;
     width: 6vw;
-    height: 3vh;
+    /* height: 3vh; */
     margin-left: 15px;
     /* flex-shrink: 0; */
     /* overflow: hidden; */
   }
   .invest {
     position: relative;
+    cursor: pointer;
     font-size: var(--heading-16-size);
     font-family: var(--paragraph-20);
     color: navy;
@@ -52,7 +53,7 @@
     justify-content: center;
   }
   .frameParent{
-    margin-right: 15vw;
+    /* margin-right: 15vw; */
     color: navy;
   }
   .bestInvestmentOptions {
@@ -68,18 +69,21 @@
     flex-direction: row;
     align-items: center;
   }
-  .bestInvestmentOptionsWrapper {
+  .BIOButton{
     cursor: pointer;
-    border: 0;
+    margin-right: 3vw;
+    border: 2px solid navy;
     padding: var(--padding-base);
-    background-color: var(--brand-blue);
-    border-radius: var(--br-13xl);
+    color: white;
+    padding: 12px;
+    background-color:navy;
+    border-radius:25px;
     justify-content: flex-end;
   }
   .navBar {
     background-color: var(--white);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    width: 1661px;
+    width: 100vw;
     height: 80px;
     flex-shrink: 0;
     overflow: hidden;
