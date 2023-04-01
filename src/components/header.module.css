@@ -71,7 +71,7 @@
   }
   .BIOButton{
     cursor: pointer;
-    margin-right: 3vw;
+    /* margin-right: 3vw; */
     border: 2px solid navy;
     padding: var(--padding-base);
     color: white;
@@ -83,9 +83,9 @@
     justify-content: flex-end;
   }
   .navBar {
-    background-color: var(--white);
+    /* background-color: var(--white); */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    width: 100vw;
+    width: 98vw;
     height: 80px;
     flex-shrink: 0;
     overflow: hidden;

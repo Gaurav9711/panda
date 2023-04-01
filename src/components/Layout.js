@@ -3,6 +3,10 @@ import Head from 'next/head';
 import Header from './Header';
 import Footer from './Footer';
 import Compo from './Compo';
+import FixedContainer from './Fixed-container';
+import InvestmentContainer from './investment-container';
+
+import FdBazaar from './FdBazaar';
 const navbar = () => {
   return (
     <div>
@@ -16,6 +20,9 @@ const navbar = () => {
       <Header/>
       <Footer/>
       <Compo/>
+      <FixedContainer/>
+      {/* <InvestmentContainer/> */}
+      {/* <FdBazaar/> */}
     </div>
   )
 }

@@ -1,0 +1,100 @@
+.whyFixed {
+    position: relative;
+    height: 77px;
+    color: #121B64;
+    font-size: 3rem;
+    font-weight: bold;
+    
+    /* border: 2px solid black; */
+  }
+  .chooseAcrossInvestments {
+    position: relative;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    font-weight: lighter;
+  }
+  .whyFixedParent {
+    flex-direction: column;
+    align-items: center;
+    height: 181px;
+    width: 700px;
+    /* gap: */
+  }
+  .frameGroup,
+  .frameParent,
+  .hero,
+  .whyFixedParent {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .frameGroupItem{
+    margin: 0 20px;
+  }
+  .frameGroup {
+    /* width: 100vw; */
+    flex-direction: row;
+    align-items: flex-start;
+    /* gap:50px; */
+    text-align: left;
+    font-size: 1.2rem;
+    color:black;
+  }
+  .boxUpper{
+    display: flex;
+    /* flex-direction: row; */
+    height:220px ;
+    width: 416px;
+    border: 2px solid red;
+    /* justify-content:left; */
+    /* margin: 0 10px; */
+  }
+  .boximg{
+    position: relative;
+    height: 56px;
+    width: 56px;
+    left: 0;
+    top: 5px;
+    margin: 0 10px;
+  }
+  .boxH{
+    top: 10px;
+    font-size: 1.7rem;
+    margin: 0 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .boxcontainer{
+    display: flex;
+    justify-content:space-around;
+    height: 500px;
+    width: 97vw;
+
+    border: 2px solid gray;
+  }
+  .frameParent,
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+  .frameParent {
+    gap:50px;
+  }
+  .hero {
+    border-radius: 0 0 61px 61px;
+    background: linear-gradient(180deg, #f6f6f6, #fff 31.23%);
+    width: 100vw;
+    height: 760px;
+    flex-shrink: 0;
+    overflow: hidden;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    text-align: right;
+    font-size: 2rem;
+    color: navy;
+    font-family:'open-sans';
+  }
+  

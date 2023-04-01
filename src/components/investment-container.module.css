@@ -1,0 +1,56 @@
+.frameChild {
+    position: relative;
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    margin: 5px 11px;
+  }
+  .safeInvestmentsThat {
+    flex: 1;
+    position: relative;
+    font-size: 1.7rem;
+    font-weight: bold;
+    line-height: 2.2rem;
+  }
+  .frameGroup {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-xl);
+  }
+  .frameItem,
+  .lowRiskHigh {
+    align-self:center;
+    position: relative;
+  }
+  .frameItem {
+    border-top: 1px solid rgb(229, 221, 221);
+    box-sizing: border-box;
+    height: 10px;
+    width: 26vw;
+    margin: 2rem 0;
+    flex-shrink: 0;
+  }
+  .lowRiskHigh {
+    font-size: var(--paragraph-20-size);
+  }
+  .frameParent {
+    align-self: stretch;
+    flex: 1;
+    border-radius: var(--br-xs);
+    background-color: white;
+    box-shadow: 0 18px 50px -10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+    text-align: left;
+    width: 416px;
+    height: 13.775rem;
+  }
+  

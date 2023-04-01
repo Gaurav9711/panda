@@ -11,7 +11,6 @@
 .loremIpsumDolor {
   position: relative;
   font-size: 1.2rem;
-  color: var(--black);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,39 +58,40 @@
 
 .rupeeGoldCoin {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 304.09px;
-  height: 341.09px;
+  top: -9px;
+  left: 15rem;
+  width: 9rem;
+  height: 19rem;
   object-fit: cover;
 }
 
 .percentCoin1 {
   bottom: 139px;
-  left: 119px;
-  width: 220px;
-  height: 220px;
+  left: 17rem;
+  width: 12rem;
+  height: 15rem;
 }
 
 .arrowCoin1,
 .fCoin2,
 .percentCoin1 {
   position: absolute;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 .arrowCoin1 {
-  right: 69px;
+  right: 18rem;
   bottom: 147px;
-  width: 228px;
-  height: 228px;
+  width: 12rem;
+  height: 15rem;
+  /* border: 2px solid red; */
 }
 
 .fCoin2 {
-  top: 1px;
-  right: -53px;
-  width: 340px;
-  height: 340px;
+  top: -9px;
+  width: 16rem;
+  height: 20rem;
+  right:12rem;
 }
 
 .hero {
