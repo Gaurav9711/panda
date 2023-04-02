@@ -55,6 +55,7 @@
   .frameParent{
     /* margin-right: 15vw; */
     color: navy;
+    margin-left: 3rem;
   }
   .bestInvestmentOptions {
     position: relative;

@@ -1,0 +1,71 @@
+.frameChild {
+    position: relative;
+    border-radius: var(--br-7xs);
+    width: 296px;
+    height: 203px;
+    flex-shrink: 0;
+    overflow: hidden;
+    margin-top: 0.6rem;
+    object-fit: cover;
+  }
+  .saveMoneyThe,
+  .toremIpsumDolor {
+    align-self: stretch;
+    position: relative;
+    margin: 15px 0;
+  }
+  /* .saveMoneyThe{
+    font-weight: bold;
+  } */
+  .toremIpsumDolor {
+    color: grey;
+  }
+  .frameGroup,
+  .saveMoneyTheRightWayParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .saveMoneyTheRightWayParent {
+    width: 296px;
+    overflow: hidden;
+    padding:5px;
+    box-sizing: border-box;
+    /* margin-bottom: 5px; */
+  }
+  .frameGroup {
+    gap: var(--gap-5xs);
+  }
+  .may2023,
+  .readNow {
+    position: relative;
+    color: grey;
+    font-size: 1rem;
+  }
+  .readNow {
+    color: rgb(144, 174, 68);
+  }
+  .frameParent,
+  .may2023Parent {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding:7px;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--light-grey);
+  }
+  .frameParent {
+    flex: 1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+    flex-direction: column;
+    padding: var(--padding-5xs) var(--padding-5xs) 0;
+    text-align: left;
+    font-size: var(--heading-16-size);
+    color: black;
+    font-family: var(--paragraph-20);
+  }
+  

@@ -1,0 +1,80 @@
+.keepLearningKeep {
+    position: relative;
+    height: 77px;
+    font-size: 3rem;
+    color: #121B64;
+    margin-top: 60px;
+  }
+  .insightsAndStrategies {
+    position: relative;
+    font-size: 1.5rem;
+    color:black;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 945px;
+  }
+  .keepLearningKeepGrowingParent {
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+    margin-bottom: 7rem;
+  }
+  .frameGroup,
+  .frameParent,
+  .keepLearningKeepGrowingParent {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .frameGroup {
+    width: 1296px;
+    height: 450px;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1vw;
+    text-align: left;
+  }
+  .frameParent {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  .moreInsights {
+    position: relative;
+    font-size: 1rem;
+    color: #121B64;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  .hero,
+  .moreInsightsWrapper {
+    display: flex;
+    align-items: center;
+  }
+  .moreInsightsWrapper {
+    border-radius: 25px;
+    border: 1px solid #121B64;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .hero {
+    border-radius: 0 0 var(--br-61xl) var(--br-61xl);
+    background: linear-gradient(180deg, #f6f6f6, #f5fae7);
+    width: 98vw;
+    height: 996px;
+    overflow: hidden;
+    flex-direction: column;
+    padding: var(--padding-81xl) var(--padding-53xl);
+    box-sizing: border-box;
+    justify-content: flex-start;
+    gap: var(--gap-13xl);
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--brand-blue);
+    font-family: var(--paragraph-20);
+  }
+  

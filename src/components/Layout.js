@@ -4,9 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Compo from './Compo';
 import FixedContainer from './Fixed-container';
-import InvestmentContainer from './investment-container';
-
-import FdBazaar from './FdBazaar';
+import LearningContainer from './LearningContainer';
 const navbar = () => {
   return (
     <div>
@@ -21,8 +19,7 @@ const navbar = () => {
       <Footer/>
       <Compo/>
       <FixedContainer/>
-      {/* <InvestmentContainer/> */}
-      {/* <FdBazaar/> */}
+      <LearningContainer/>
     </div>
   )
 }
