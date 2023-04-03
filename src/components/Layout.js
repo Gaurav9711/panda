@@ -5,6 +5,10 @@ import Footer from './Footer';
 import Compo from './Compo';
 import FixedContainer from './Fixed-container';
 import LearningContainer from './LearningContainer';
+import TeamContainer from './Team-container';
+import PressContainer from './PressContainer';
+import FollowUs from './FollowUs';
+import ChatContainer from './ChatContainer';
 const navbar = () => {
   return (
     <div>
@@ -20,6 +24,10 @@ const navbar = () => {
       <Compo/>
       <FixedContainer/>
       <LearningContainer/>
+      <TeamContainer/>
+      <PressContainer/>
+      <FollowUs/>
+      <ChatContainer/>
     </div>
   )
 }

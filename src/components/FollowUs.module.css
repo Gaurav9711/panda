@@ -1,0 +1,106 @@
+.followUs {
+    position: relative;
+    line-height: 120%;
+    color: #121B64;
+    font-weight: bold;
+    font-size: 2.7rem;
+    margin-bottom: 2rem;
+  }
+  .discoverThePassion {
+    position: relative;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    color: #32302F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+  }
+  .followUsParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 700px;
+    height: 181px;
+    margin: 6rem 0;
+  }
+  .youtubeIcon {
+    border-radius: var(--br-base);
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .fixedinvestments,
+  .youtubeIcon {
+    position: relative;
+  }
+  .fixedinvestments{
+    color:#686868;
+    font-size: 0.8rem;
+  }
+  .youtubeParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-base);
+  }
+  .linkedinChild {
+    /* border: 1px solid blue; */
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-7xs);
+    /* background-color:blue; */
+  }
+  .linkedinLogoIcon {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    left: 0px;
+    /* top: 20.83%;
+    right: 20.83%;
+    bottom: 20.83%;
+    left: 20.83%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%; */
+    /* background-color: blue; */
+  }
+  .frameGroup {
+    align-self: stretch;
+    background-color: var(--white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 90vw;
+    justify-content: space-evenly;
+  }
+  .desktop1440Inner,
+  .frameParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  /* .frameParent {
+    border: 2px solid green;
+  } */
+  .desktop1440Inner {
+    /* background: linear-gradient(180deg, #f6f6f6, #fff 52.6%, #fff); */
+    width: 98vw;
+    height: 760px;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(251, 250, 250);
+  }
+  

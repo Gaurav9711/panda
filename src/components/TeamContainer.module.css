@@ -1,0 +1,122 @@
+.meetTheTeam {
+    position: relative;
+    font-size: 3.5rem;
+    color: #121B64;
+    font-weight: bold;
+  }
+  .discoverThePassion {
+    position: relative;
+    font-size: 1.6rem;
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+  }
+  .frameWrapper,
+  .meetTheTeamParent {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .meetTheTeamParent {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    height: 181px;
+    width: 700px;
+  }
+  .frameWrapper {
+    width: 246px;
+    height: 360px;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .quotationIcon,
+  .quotationIcon1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+  }
+  .quotationIcon1 {
+    top: 250px;
+    left: 938px;
+  }
+  .ourVisionIs {
+    position: absolute;
+    top: 139px;
+    left: calc(50% - 385px);
+    display: flex;
+    align-items: center;
+    width: 771px;
+    font-size: 2rem;
+    color: gray;
+  }
+  .quotationParent {
+    flex: 1;
+    position: relative;
+    border-top: 1px solid var(--light-grey);
+    border-right: 1px solid var(--light-grey);
+    border-bottom: 1px solid light-grey;
+    box-sizing: border-box;
+    height: 360px;
+    text-align: left;
+    font-size: var(--heading-32-size);
+    color: var(--grey);
+  }
+  .frameContainer,
+  .frameDiv {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameContainer{
+    border: 1px solid lightgrey;
+    margin-bottom: 2rem;
+  }
+  .frameDiv {
+    height: 360px;
+    flex-shrink: 0;
+    gap:1.3rem;
+  }
+  .frameGroup,
+  .frameParent,
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .frameGroup {
+    width: 1294px;
+    align-items: flex-start;
+    gap: var(--gap-13xl);
+    font-size: var(--heading-16-size);
+    color: black;
+  }
+  .frameParent,
+  .hero {
+    align-items: center;
+  }
+  .frameParent {
+    gap: var(--gap-61xl);
+  }
+  .hero {
+    border-radius:5px;
+    background: linear-gradient(
+      180deg,
+      #f6f6f6,
+      rgba(255, 255, 255, 0.98) 14.35%
+    );
+    overflow: hidden;
+    padding: var(--padding-61xl) var(--padding-53xl);
+    text-align: center;
+    font-size: var(--heading-64-size);
+    color: var(--brand-blue);
+    font-family: var(--paragraph-20);
+  }
+  

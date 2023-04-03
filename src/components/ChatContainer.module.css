@@ -1,0 +1,124 @@
+.frameChild {
+    position: absolute;
+    bottom: 116.5px;
+    left: calc(50% - 648.5px);
+    border-top: 1px solid white;
+    box-sizing: border-box;
+    width: 1297px;
+    height: 1px;
+    
+  }
+  .fixerraPvtLtd {
+    position: absolute;
+    bottom: 64px;
+    left: 6vw;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-poppins);
+  }
+  .frameIcon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    overflow: hidden;
+    margin: 0 1rem;
+  }
+  .frameParent {
+    position: absolute;
+    right: 6vw;
+    bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+  }
+  .wantToTalk {
+    color:#F6F6F6 ;
+    font-weight: bold;
+  }
+  .callUsAnd{
+    margin: 1.5rem 0;
+  }
+  .callUsAnd,
+  .wantToTalk {
+    position: relative;
+    display: inline-block;
+    width: 342px;
+    color: rgb(236, 233, 233);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .phoneParent,
+  .wantToTalkParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .phoneParent {
+    flex-direction: row;
+    padding: var(--padding-3xs) 0;
+    gap: var(--gap-3xs);
+  }
+  .wantToTalkParent {
+    position: absolute;
+    top: 100px;
+    left: 549px;
+    flex-direction: column;
+    gap: var(--gap-7xs);
+  }
+  .invest {
+    position: relative;
+    margin: 0.3rem;
+  }
+  .companyParent,
+  .fdBazaarParent,
+  .investParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-7xs);
+    color: var(--white-off);
+  }
+  .companyParent,
+  .investParent {
+    position: absolute;
+    top: 88px;
+    left: 1242px;
+    gap: var(--gap-smi);
+    color: var(--white);
+  }
+  .companyParent {
+    left: 1065px;
+  }
+  .frameIcon3 {
+    position: relative;
+    width: 108.75px;
+    height: 30px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .frameGroup {
+    position: absolute;
+    top: 100px;
+    left: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-11xl);
+  }
+  .lineParent {
+    position: relative;
+    background-color:#121B64;;
+    width: 98vw;
+    height: 584px;
+    flex-shrink: 0;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--paragraph-20-size);
+    color:#F6F6F6;
+    font-weight: lighter;
+    font-family:serif ;
+  }
+  

@@ -1,0 +1,104 @@
+.inThePress {
+    position: relative;
+    line-height: 120%;
+    font-size: 2.8rem;
+    color: #121B64;
+    font-weight: bold;
+  }
+  .discoverThePassion {
+    position: relative;
+    font-size:1.4rem;
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42vw;
+    color: #32302F;
+  }
+  .inThePressParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 4rem;
+    gap: 50px;
+  }
+  .image16Icon {
+    position: absolute;
+    top: 48px;
+    left: 7px;
+    width: 285px;
+    height: 102px;
+    object-fit: cover;
+  }
+  .image16Wrapper {
+    position: relative;
+    background-color: var(--white);
+    width: 300px;
+    height: 150px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .image14Icon,
+  .image15Icon {
+    position: absolute;
+    top: 34px;
+    left: 5px;
+    width: 289px;
+    height: 116px;
+    object-fit: cover;
+  }
+  .image15Icon {
+    top: 56px;
+    left: 0;
+    width: 306px;
+    height: 94px;
+  }
+  .frameGroup {
+    position: absolute;
+    top: 10px;
+    width: 90vw;
+    /* left: 118px; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+  }
+  .frameWrapper {
+    position: relative;
+    width: 1296px;
+    height: 170px;
+    flex-shrink: 0;
+    overflow: hidden;
+    justify-content: space-between;
+  }
+  .desktop1440Inner,
+  .frameParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .frameParent {
+    margin-top: 5rem;
+    width: 90vw;
+    height: 60vh;
+  }
+  .desktop1440Inner {
+    border-radius: 0 0 var(--br-61xl) var(--br-61xl);
+    background-color: rgb(251, 250, 250);
+    width: 98vw;
+    height: 760px;
+    flex-shrink: 0;
+    overflow: hidden;
+    padding: var(--padding-81xl) var(--padding-53xl);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: var(--heading-64-size);
+    color: var(--brand-blue);
+    font-family: var(--paragraph-20);
+    border-radius: 50px;
+    border: 1px solid gray;
+  }
+  
