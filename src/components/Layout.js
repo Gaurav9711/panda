@@ -9,6 +9,7 @@ import TeamContainer from './Team-container';
 import PressContainer from './PressContainer';
 import FollowUs from './FollowUs';
 import ChatContainer from './ChatContainer';
+import SavingsContainer from './savings-container';
 const navbar = () => {
   return (
     <div>
@@ -22,6 +23,7 @@ const navbar = () => {
       <Header/>
       <Footer/>
       <Compo/>
+      <SavingsContainer/>
       <FixedContainer/>
       <LearningContainer/>
       <TeamContainer/>
