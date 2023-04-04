@@ -9,14 +9,14 @@ const FdBazaar = () => {
       <div className={styles.savingsParent}>
         <div className={styles.savings}>
           <span className={styles.savingsTxtContainer}>
-            <span>{`FD Bazaar `}</span>
+            <span>{`Tax Saver `}</span>
           </span>
         </div>
         <div className={styles.getAccessTo}>
-        Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+        Choose across investments that you can easily withdraw and liquidate in times of need
         </div>
         <div className={styles.saveNowWrapper}>
-          <div className={styles.saveNow}>Explore FDs</div>
+          <div className={styles.saveNow}>Save your Taxes</div>
         </div>
       </div>
     </div>

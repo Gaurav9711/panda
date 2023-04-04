@@ -100,6 +100,7 @@
   border-radius: 0 0 var(--br-61xl) var(--br-61xl);
   background-color: var(--white);
   height: 700px;
+  width: 98vw;
   /* flex-shrink: 0; */
   /* overflow: hidden; */
   text-align: center;

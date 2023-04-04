@@ -1,5 +1,6 @@
 .span {
-  color: green;
+  color: #7E8139;
+  font-weight: bolder;
 }
 .savingsTxtContainer {
   line-break: anywhere;
@@ -7,6 +8,8 @@
   margin: 2rem 0;
   width: 100%;
   padding: 5px;
+  color: rgb(10, 10, 135);
+  font-weight: bold;
 }
 .getAccessTo,
 .savings {
@@ -28,19 +31,23 @@
 .saveNow {
   position: relative;
 }
+.saveNow{
+  color: rgb(10, 10, 135);
+  font-weight: bold;
+}
 .saveNowWrapper {
-  border-radius: var(--br-36xl);
-  border: 1px solid var(--brand-blue);
+  border-radius: 20px;
+  border: 2px solid rgb(10, 10, 135); ;
   display: flex;
   flex-direction: row;
-  padding: var(--padding-base);
+  padding: 0.7rem;
   align-items: flex-start;
   justify-content: flex-start;
   text-align: center;
   font-size: var(--heading-16-size);
 }
 .savingsParent {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 55vw;
   height: 250px;
 }
@@ -60,11 +67,14 @@
 }
 .heroChild {
   position: relative;
-  background-color: var(--color-whitesmoke-100);
+  background-color:whitesmoke;
   width: 500px;
   height: 500px;
+  /* border: 1px solid black; */
+  right: 5.8rem;
 }
 .hero {
+  /* border: 1px solid black; */
   border-radius: 0 0 var(--br-61xl) var(--br-61xl);
   background: linear-gradient(
     180deg,

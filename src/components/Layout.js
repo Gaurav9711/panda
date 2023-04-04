@@ -10,6 +10,8 @@ import PressContainer from './PressContainer';
 import FollowUs from './FollowUs';
 import ChatContainer from './ChatContainer';
 import SavingsContainer from './savings-container';
+import FdBazaar from './FdBazaar';
+import TaxSaver from './TaxSaver';
 const navbar = () => {
   return (
     <div>
@@ -23,7 +25,9 @@ const navbar = () => {
       <Header/>
       <Footer/>
       <Compo/>
+      <FdBazaar/>
       <SavingsContainer/>
+      <TaxSaver/>
       <FixedContainer/>
       <LearningContainer/>
       <TeamContainer/>
