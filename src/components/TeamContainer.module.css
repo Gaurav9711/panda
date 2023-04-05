@@ -117,4 +117,19 @@
     text-align: center;
     width: 94.3rem;
   }
-  
+  @media only screen and (max-width: 1024px) {
+    .hero{
+      border: 1px solid black;
+      height: 1549px;
+      width: 94.3rem;
+    }
+    .frameDiv{
+      /* width: 880px; */
+      border: 1px solid black;
+      height: 736px;
+      display: grid;
+      grid-template-rows:360px 360px;
+      grid-template-columns:20rem 20rem 20rem;
+      column-gap: 1rem;
+    }
+    }

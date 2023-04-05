@@ -121,4 +121,17 @@
     font-weight: lighter;
     font-family:serif ;
   }
+  @media only screen and (max-width: 1024px) {
+    .frameChild{
+      width: 85rem;
+      left: 4.5rem;
+    }
+    .fixerraPvtLtd{
+      left: 4.3rem;
+    }
+    .frameParent{
+      right: 3.2rem;
+    }
+   }
+   
   
