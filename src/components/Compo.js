@@ -1,4 +1,5 @@
 import styles from "./hero-container.module.css";
+import values from "./Compo.json";
 const HeroContainer = () => {
   return (
     <div className={styles.hero}>

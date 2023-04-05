@@ -46,7 +46,7 @@
 .stressFreeInvestingParent {
   position: absolute;
   top: calc(50% - 163px);
-  left: 20vw;
+  left: 20rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,7 +100,7 @@
   border-radius: 0 0 var(--br-61xl) var(--br-61xl);
   background-color: var(--white);
   height: 700px;
-  width: 98vw;
+  width: 94.4rem;
   /* flex-shrink: 0; */
   /* overflow: hidden; */
   text-align: center;

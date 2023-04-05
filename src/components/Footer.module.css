@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 5vh;
-    width: 98vw;
+    width: 94.4rem;
 
     background-color: #F6F6F6;
     margin-right: 10vw;
@@ -18,3 +18,8 @@
     font-size: 0.7rem;
     align-self: center;
 }
+/* @media only screen and (max-width: 822px) {
+   .discountContainer{
+    width: 80rem;
+   }
+  } */

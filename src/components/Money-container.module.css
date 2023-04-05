@@ -34,9 +34,6 @@
     box-sizing: border-box;
     /* margin-bottom: 5px; */
   }
-  .frameGroup {
-    gap: var(--gap-5xs);
-  }
   .may2023,
   .readNow {
     position: relative;
@@ -55,17 +52,26 @@
     padding:7px;
     align-items: center;
     justify-content: space-between;
-    color: var(--light-grey);
+
   }
   .frameParent {
     flex: 1;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
     flex-direction: column;
-    padding: var(--padding-5xs) var(--padding-5xs) 0;
     text-align: left;
-    font-size: var(--heading-16-size);
     color: black;
-    font-family: var(--paragraph-20);
   }
+  @media only screen and (max-width: 1024px) {
+    .saveMoneyThe,
+    .toremIpsumDolor{
+      margin: 6px 0;
+    }
+    .frameChild{
+      width: 407px;
+    }
+  }
+ 
+
+
   

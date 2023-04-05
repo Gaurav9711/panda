@@ -62,19 +62,27 @@
     margin-top: 2rem;
   }
   .hero {
-    border-radius: 0 0 var(--br-61xl) var(--br-61xl);
     background: linear-gradient(180deg, #f6f6f6, #f5fae7);
-    width: 98vw;
+    width: 94.3rem;
     height: 996px;
     overflow: hidden;
     flex-direction: column;
-    padding: var(--padding-81xl) var(--padding-53xl);
     box-sizing: border-box;
     justify-content: flex-start;
-    gap: var(--gap-13xl);
     text-align: center;
     font-size: 1.2rem;
-    color: var(--brand-blue);
-    font-family: var(--paragraph-20);
+  }
+  @media only screen and (max-width: 1024px) {
+    .hero{
+      height: 1407px;
+      width: 94.3rem;
+    }
+    .frameGroup{
+        display: grid;
+        width: 880px;
+        height: 824px;
+        grid-template-rows:400px 400px ;
+        grid-template-columns: 432px 432px;
+    }
   }
   

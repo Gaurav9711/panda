@@ -86,7 +86,7 @@
   .hero {
     border-radius: 0 0 61px 61px;
     background: linear-gradient(180deg, #f6f6f6, #fff 31.23%);
-    width: 98vw;
+    width: 94.3rem;
     height: 760px;
     flex-shrink: 0;
     overflow: hidden;
@@ -96,5 +96,14 @@
     font-size: 2rem;
     color: navy;
     font-family:'open-sans';
+  }
+  @media only screen and (max-width: 1024px) {
+    .hero{
+      height: 1061px;
+      width: 94.3rem;
+    }
+    .frameGroup{
+      flex-direction: column;
+    }
   }
   

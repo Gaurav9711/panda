@@ -33,9 +33,7 @@
     margin: 2rem 0;
     flex-shrink: 0;
   }
-  .lowRiskHigh {
-    font-size: var(--paragraph-20-size);
-  }
+
   .frameParent {
     align-self: stretch;
     flex: 1;
@@ -53,4 +51,22 @@
     width: 416px;
     height: 13.775rem;
   }
-  
+  @media only screen and (max-width: 1024px) {
+    .frameParent{
+      width: 773px;
+      height: 184px;
+      margin: 1rem 0;
+    }
+    .frameItem{
+      width: 46.3rem;
+    }
+    .frameItem {
+    align-self:center;
+    position: relative;
+  }
+  .lowRiskHigh{
+    align-self: self-start;
+    margin-left: 1rem;
+  }
+   
+  }

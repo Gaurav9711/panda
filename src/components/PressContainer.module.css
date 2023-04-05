@@ -88,7 +88,7 @@
   .desktop1440Inner {
     border-radius: 0 0 var(--br-61xl) var(--br-61xl);
     background-color: rgb(251, 250, 250);
-    width: 98vw;
+    width: 94.3rem;
     height: 760px;
     flex-shrink: 0;
     overflow: hidden;
@@ -99,6 +99,6 @@
     color: var(--brand-blue);
     font-family: var(--paragraph-20);
     border-radius: 50px;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
   }
   

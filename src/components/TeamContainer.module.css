@@ -115,8 +115,6 @@
     overflow: hidden;
     padding: var(--padding-61xl) var(--padding-53xl);
     text-align: center;
-    font-size: var(--heading-64-size);
-    color: var(--brand-blue);
-    font-family: var(--paragraph-20);
+    width: 94.3rem;
   }
   
