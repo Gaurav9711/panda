@@ -51,7 +51,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: var(--gap-13xl);
   width: 837px;
   height: 304px;
 }
@@ -97,8 +96,6 @@
 .hero {
   /* align-self: stretch; */
   position: relative;
-  border-radius: 0 0 var(--br-61xl) var(--br-61xl);
-  background-color: var(--white);
   height: 700px;
   width: 94.4rem;
   /* flex-shrink: 0; */
@@ -108,4 +105,63 @@
   color: var(--brand-blue);
   font-family: var(--paragraph-20);
   
+}
+@media only screen and (max-width: 1024px) {
+  .loremIpsumDolor{
+    font-size: 1.5rem;
+  }
+
+}
+@media only screen and (max-width: 391px) {
+  .hero{
+    height: 417px;
+    width: 375px;
+    /* background-color: yellow; */
+  }
+  .loremIpsumDolor{
+    width: 327px;
+    height: 63px;
+    font-size: 0.8rem;
+    line-height: 20.9px;
+  }
+  .joinTheWaitlistWrapper{
+    width: 139px;
+    height: 53px;
+    border-radius: 50px;
+  }
+  .rupeeGoldCoin{
+    height: 70px;
+    width: 70px;
+    left: 0rem;
+    top:0.8rem;
+  }
+  .arrowCoin1{
+    height: 66px;
+    width: 66px;
+    right: 1.2rem;
+  }
+  .fCoin2{
+    width: 60px;
+    height: 60px;
+    right: 0.7rem;
+    top: 1.2rem;
+  }
+  .percentCoin1{
+    width: 72px;
+    height: 72px;
+    left: 1rem;
+  }
+  .stressFreeInvestingParent{
+    width: 375px;
+    height: 221px;
+    left: 0;
+    top: 4rem;
+    margin-bottom: 1rem;
+  }
+  .stressFreeInvesting{
+    height: 41px;
+    width: 327px;
+    font-size: 2rem;
+  }
+
 }

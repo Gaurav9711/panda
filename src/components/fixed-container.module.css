@@ -105,5 +105,16 @@
     .frameGroup{
       flex-direction: column;
     }
+    .whyFixed{
+      font-size: 4rem;
+      margin-bottom: 3rem;
+    }
+    .chooseAcrossInvestments{
+      font-size: 2rem;
+      width: 65rem;
+    }
+    .frameGroup{
+      margin-top: 2rem;
+    }
   }
   
