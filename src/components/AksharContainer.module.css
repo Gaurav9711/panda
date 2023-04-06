@@ -52,4 +52,35 @@
     color: var(--color-black);
     font-family: var(--paragraph-20);
   }
+  @media only screen and (max-width: 391px) {
+  .frameGroup{
+    width: 155.5px;
+    height: 59px;
+  }
+  .aksharShahParent{
+    width: 99px;
+    height: 43px;
+  }
+  .aksharShah{
+    width: 84px;
+    height: 21px;
+    font-size: 0.9rem;
+    justify-content: space-between;
+    display: flex;
+  }
+  .founderAndCeo{
+    height: 18px;
+    width: 99px;
+    font-size: 0.8rem;
+  }
+  .frameChild{
+    width: 155.5px;
+    height: 124.5px;
+    object-fit: unset;
+  }
+  .linkedinIcon{
+    width: 16px;
+    height: 16px;
+  }
+  }
   

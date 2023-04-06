@@ -71,6 +71,31 @@
       width: 407px;
     }
   }
+  @media only screen and (max-width: 391px) {
+    .frameParent{
+      width: 327px;
+      height: 290px;
+      min-height: 290px;
+    }
+    .frameChild{
+      width: 311px;
+      height: 150px;
+    }
+    .saveMoneyTheRightWayParent{
+      width: 311px;
+      /* border: 1px solid black; */
+      height: 79px;
+    }
+    .toremIpsumDolor{
+      width: 311px;
+      height: 54px;
+      font-size: 1rem;
+    }
+    .InvisibleContainer{
+      visibility: hidden;
+    }
+    
+  }
  
 
 

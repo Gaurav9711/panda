@@ -22,13 +22,13 @@ const LearningContainer = () => {
           />
           <MoneyContainer
             subtitleText="/frame-2411@2x.png"
-            subtitleText1="Save money, the right way. Second line test"
+            subtitleText1="Save money, the right way."
           />
-          <MoneyContainer
+          <MoneyContainer className={styles.InvisibleContainer}
             subtitleText="/frame-2412@2x.png"
             subtitleText1="Save money, the right way. Second line test"
           />
-          <MoneyContainer
+          <MoneyContainer className={styles.InvisibleContainer}
             subtitleText="/frame-241@2x.png"
             subtitleText1="Save money, the right way"
           />

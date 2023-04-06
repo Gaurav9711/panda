@@ -132,13 +132,13 @@
   .rupeeGoldCoin{
     height: 70px;
     width: 70px;
-    left: 0rem;
-    top:0.8rem;
+    left: -1rem;
+    top:0.7rem;
   }
   .arrowCoin1{
     height: 66px;
     width: 66px;
-    right: 1.2rem;
+    right: 2rem;
   }
   .fCoin2{
     width: 60px;
@@ -149,12 +149,12 @@
   .percentCoin1{
     width: 72px;
     height: 72px;
-    left: 1rem;
+    left: 0.8rem;
   }
   .stressFreeInvestingParent{
     width: 375px;
     height: 221px;
-    left: 0;
+    left: -1rem;
     top: 4rem;
     margin-bottom: 1rem;
   }
@@ -162,6 +162,7 @@
     height: 41px;
     width: 327px;
     font-size: 2rem;
+    margin-bottom: 1rem;
   }
 
 }

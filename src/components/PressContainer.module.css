@@ -109,4 +109,63 @@
     flex-direction: row;
    }
   }
+  @media only screen and (max-width: 391px) {
+  .desktop1440Inner{
+    height: 304px;
+    /* border: 1px solid black; */
+    width: 375px;
+  }
+  .frameParent{
+    /* border: 1px solid red; */
+    width: 327px;
+    height: 208px;
+    margin-top: 1rem;
+  }
+  .inThePressParent{
+    width: 327px;
+    height: 136px;
+    margin-bottom: unset;
+  }
+  .inThePress{
+    width: 155px;
+    height: 41px;
+    font-size: 1.9rem;
+  }
+  .discoverThePassion{
+    width: 327px;
+    height: 63px;
+    font-size: 1rem;
+    top: -2rem;
+  }
+  .frameWrapper{
+    width: 327px;
+    height: 100px;
+    /* border: 1px solid black; */
+  }
+  .frameGroup{
+    width: 327px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .image16Wrapper{
+    width: 80px;
+    height: 90px;
+    overflow: hidden;
+  }
+  .image16Icon{
+    width: 75px;
+    height: 27.2px;
+  }
+  .image14Icon{
+    width: 77.07px;
+    height: 30.93px;
+    top: 2.5rem;
+  }
+  .image15Icon{
+    width: 81.6px;
+    height: 25.07px;
+    top: 2.7rem;
+  }
+  }
   

@@ -101,6 +101,7 @@
     .hero{
       height: 1061px;
       width: 94.3rem;
+      background: unset;
     }
     .frameGroup{
       flex-direction: column;
@@ -117,4 +118,42 @@
       margin-top: 2rem;
     }
   }
-  
+  @media only screen and (max-width: 391px) {
+    .hero{
+      height: 789px;
+      width: 375px;
+      background: unset;
+    }
+    .whyFixed{
+      font-size: 2.5rem;
+      margin-bottom: unset
+    }
+    .frameParent{
+      height: 693px;
+      width: 327px;
+    }
+    .whyFixedParent{
+      width: 327px;
+      height: 115px;
+      position: relative;
+    }
+    .chooseAcrossInvestments{
+      width: 327px;
+      height: 42px;
+      font-size: 1rem;
+      color:black;
+    }
+    
+    .frameGroupItem{
+      height: 150px;
+      width: 327px;
+      /* border: 1px solid black; */
+     margin: 1rem 0; 
+      
+    }
+    .frameGroup{
+      right: 0.5rem;
+      position: relative;
+      margin-top: unset;
+    }
+  }

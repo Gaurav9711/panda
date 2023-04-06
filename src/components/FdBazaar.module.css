@@ -86,10 +86,55 @@
     height: 760px;
     display: flex;
     flex-direction: row;
-    padding: var(--padding-81xl) var(--padding-53xl);
     box-sizing: border-box;
     align-items: center;
     justify-content: space-between;
     text-align: left;
   }
+  @media only screen and (max-width: 391px) {
+    .hero{
+      width: 375px;
+      height: 652px;
+      /* background-color: yellow; */
+      flex-direction: column;
+      background: unset;
+      /* align-items: unset; */
+    }
+    .heroChild{
+      width: 327px;
+      height: 327px;
+      left: -0.65rem;
+    }
+    .heroInner{
+      height: 205px;
+      width: 327px;
+      right: -1rem;
+    }
+    .savings{
+      width: 327px;
+      height: 41px;
+      right: 1.7rem;
+
+      /* border: 1px solid black; */
+    }
+    .savingsParent{
+      margin-top: -5rem;
+    }
+    .savingsTxtContainer{
+      font-size: 3rem;
+    }
+    .getAccessTo{
+      font-size: 1rem;
+      text-align: center;
+      width: 327px;
+      height: 63px;
+      text-align-last: unset ;
+    }
+    .saveNowWrapper{
+      position: relative;
+      padding: 1.4rem;
+      border-radius: 30px;
+      right: 5.5rem;
+    }
+   }
   

@@ -92,4 +92,51 @@
     justify-content: space-between;
     text-align: left;
   }
+  @media only screen and (max-width: 391px) {
+    .hero{
+      width: 375px;
+      height: 631px;
+      background:unset;
+      flex-direction: column-reverse;
+      /* align-items: unset; */
+    }
+    .heroChild{
+      width: 327px;
+      height: 327px;
+      left: -0.95rem;
+    }
+    .heroInner{
+      height: 205px;
+      width: 327px;
+      right: -1rem;
+    }
+    .savings{
+      width: 327px;
+      height: 41px;
+      right: 1.7rem;
   
+      /* border: 1px solid black; */
+    }
+    .savingsParent{
+      margin-top: -5rem;
+    }
+    .savingsTxtContainer{
+      font-size: 2.5rem;
+    }
+    .getAccessTo{
+      font-size: 1rem;
+      text-align: left;
+      width: 327px;
+      height: 42px;
+      right: 4.5rem;
+      /* text-align-last: center ; */
+  
+    }
+    .saveNowWrapper{
+      position: relative;
+      padding: 1.4rem;
+      border-radius: 30px;
+      /* right: 2.5rem; */
+    }
+  
+  }

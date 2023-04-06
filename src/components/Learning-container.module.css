@@ -85,4 +85,46 @@
         grid-template-columns: 432px 432px;
     }
   }
+  @media only screen and (max-width: 391px) {
+    .hero{
+      height: 989px;
+      width: 375px;
+    }
+    .frameParent{
+      width: 327px;
+      height: 808px;
+    }
+    .keepLearningKeepGrowingParent{
+      width: 327px;
+      height: 177px;
+      margin-bottom: 3rem;
+    }
+    .keepLearningKeep{
+      width: 327px;
+      height: 82px;
+      font-size: 2rem;
+    }
+    .insightsAndStrategies{
+      width: 327px;
+      height: 63px;
+      font-size: 1rem;
+    }
+    .frameGroup{
+      overflow: hidden;
+      width: 327px;
+      height: 599px;
+      display: grid;
+      grid-template-rows:327px 327px ;
+      grid-template-columns: 290px;
+
+    }
+    .moreInsightsWrapper{
+      margin-top: 7rem;
+    }
+    .InvisibleContainer{
+      border: 1px solid black;
+    }
+    
+    
+  }
   

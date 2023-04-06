@@ -18,8 +18,14 @@
     font-size: 0.7rem;
     align-self: center;
 }
-/* @media only screen and (max-width: 822px) {
+@media only screen and (max-width: 391px) {
    .discountContainer{
-    width: 80rem;
+    width: 375px;
+    height: 40px;
+    justify-content: flex-start;
    }
-  } */
+   .TakeAction{
+    position: relative;
+    right: -5rem;
+   }
+  }

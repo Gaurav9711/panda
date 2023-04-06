@@ -119,17 +119,91 @@
   }
   @media only screen and (max-width: 1024px) {
     .hero{
-      border: 1px solid black;
+      /* border: 1px solid black; */
       height: 1549px;
       width: 94.3rem;
     }
     .frameDiv{
       /* width: 880px; */
-      border: 1px solid black;
+      /* border: 1px solid black; */
       height: 736px;
       display: grid;
       grid-template-rows:360px 360px;
       grid-template-columns:20rem 20rem 20rem;
       column-gap: 1rem;
     }
+    }
+    @media only screen and (max-width: 391px) {
+      .hero{
+        height: 1046px;
+        width: 375px;
+      }
+      .frameParent{
+        width: 327px;
+        height: 950px;
+      }
+      .meetTheTeamParent{
+        width: 327px;
+        height: 136px;
+        gap: unset;
+      }
+      .meetTheTeam{
+        height: 41px;
+        width: 197px;
+        font-size: 2rem;
+      }
+      .discoverThePassion{
+        width: 327px;
+        height: 63px;
+        font-size: 1rem;
+      }
+      .frameGroup{
+        width: 327px;
+        height: 782px;
+      }
+      .frameContainer{
+        width: 327px;
+        height: 183.5px;
+      }
+      .frameDiv{
+        width: 327px;
+        height: 582px;
+        display: grid;
+        grid-template-columns: 155.5px 155.5px;
+        grid-template-rows: 183px 183px 183px;
+      }
+      .frameWrapper{
+        width: 156px;
+        height: 183px;
+      }
+      .quotationParent{
+        width: 171px;
+        height: 183.5px;
+      }
+      .quotationIcon{
+        width: 16px;
+        height: 16px;
+        left: 0.5rem;
+        top: 1rem;
+      }
+      .quotationIcon1{
+        width: 16px;
+        height: 16px;
+        left: 9rem;
+        top: 9.5em;
+      }
+      .ourVisionIs{
+        width: 139px;
+        height:105px;
+        top: 139px;
+        left:unset;
+        top:unset;
+        font-size: 1rem;
+      }
+      .quotationParent{
+        align-items: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     }

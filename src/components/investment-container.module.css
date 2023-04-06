@@ -53,12 +53,14 @@
   }
   @media only screen and (max-width: 1024px) {
     .frameParent{
+      box-shadow: 0 18px 50px -10px rgba(0, 0, 0, 0.2);
       width: 65rem;
       height: 190px;
       margin: 1rem 0;
     }
     .frameItem{
       width: 46.3rem;
+      border-top: 1px solid rgb(229, 221, 221);
     }
     .frameItem {
     align-self:center;
@@ -76,5 +78,38 @@
   .frameChild{
     height: 4rem;
   }
+   
+  }
+  @media only screen and (max-width: 391px) {
+    .frameGroup{
+      width: 327px;
+      height: 28px;
+      /* align-items: unset; */
+    }
+    .frameParent{
+      box-shadow: 0 18px 50px -10px rgba(0, 0, 0, 0.2);
+      height: 150px;
+      width: 327px;
+      border-radius: 20px;
+    }
+    .frameChild{
+      width: 20px;
+      height: 28px;
+    }
+    .safeInvestmentsThat{
+      width: 263px;
+      height: 21px;
+      font-size: 1rem;
+      line-height: unset;
+    }
+    .lowRiskHigh{
+      font-size: 1rem;
+    }
+    .frameItem{
+      width: 311px;
+      margin: 1rem 0;
+      border-top: 1px solid rgb(229, 221, 221);
+      
+    }
    
   }

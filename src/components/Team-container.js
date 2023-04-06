@@ -58,6 +58,10 @@ const TeamContainer = () => {
               imageIds="/frame-2515@2x.png"
               smallImageIds="/-linkedin5.svg"
             />
+            <AksharContainer
+              imageIds="/frame-2511@2x.png"
+              smallImageIds="/-linkedin1.svg"
+            />
           </div>
         </div>
       </div>
