@@ -1,6 +1,5 @@
 .frameChild {
     position: relative;
-    border-radius: var(--br-7xs);
     width: 296px;
     height: 203px;
     flex-shrink: 0;

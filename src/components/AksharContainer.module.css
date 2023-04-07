@@ -38,8 +38,6 @@
   .frameGroup {
     overflow: hidden;
     flex-direction: row;
-    padding: var(--padding-base) var(--padding-13xl) var(--padding-base)
-      var(--padding-base);
     justify-content: space-between;
   }
   .frameParent {
@@ -48,9 +46,6 @@
     flex-direction: column;
     justify-content: flex-start;
     text-align: center;
-    font-size: var(--heading-16-size);
-    color: var(--color-black);
-    font-family: var(--paragraph-20);
   }
   @media only screen and (max-width: 391px) {
   .frameGroup{

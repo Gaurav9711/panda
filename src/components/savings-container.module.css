@@ -24,7 +24,6 @@
 .getAccessTo {
   font-size: 1.5rem;
   margin: 1.5rem 0;
-  color: var(--black);
   width: 700px;
 }
 .getAccessTo,
@@ -44,7 +43,6 @@
   align-items: flex-start;
   justify-content: flex-start;
   text-align: center;
-  font-size: var(--heading-16-size);
 }
 .savingsParent {
   /* border: 1px solid green; */
@@ -75,7 +73,6 @@
 }
 .hero {
   /* border: 1px solid black; */
-  border-radius: 0 0 var(--br-61xl) var(--br-61xl);
   background: linear-gradient(
     180deg,
     #f6f6f6,
@@ -85,7 +82,6 @@
   height: 760px;
   display: flex;
   flex-direction: row;
-  padding: var(--padding-81xl) var(--padding-53xl);
   box-sizing: border-box;
   align-items: center;
   justify-content: space-between;

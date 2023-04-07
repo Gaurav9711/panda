@@ -27,7 +27,6 @@
   .getAccessTo {
     font-size: 1.5rem;
     margin: 1.5rem 0;
-    color: var(--black);
     width: 700px;
   }
   .getAccessTo,
@@ -47,7 +46,6 @@
     align-items: flex-start;
     justify-content: flex-start;
     text-align: center;
-    font-size: var(--heading-16-size);
   }
   .savingsParent {
     /* border: 1px solid green; */

@@ -40,11 +40,7 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .blogsWrapper,
-  .frameWrapper {
-    /* align-self: stretch; */
-    padding: var(--padding-9xl) var(--padding-5xl);
-  }
+
   .blogsWrapper,
   .frameParent {
     display: flex;
@@ -59,9 +55,6 @@
   }
   .bestInvestmentOptions {
     position: relative;
-    font-size: var(--heading-16-size);
-    font-family: var(--paragraph-20);
-    color: var(--white);
     text-align: center;
   }
   .bestInvestmentOptionsWrapper,
@@ -74,7 +67,6 @@
     cursor: pointer;
     /* margin-right: 3vw; */
     border: 2px solid navy;
-    padding: var(--padding-base);
     color: white;
     padding: 12px;
     background-color:navy;

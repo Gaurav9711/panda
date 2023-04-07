@@ -26,7 +26,6 @@
     margin: 6rem 0;
   }
   .youtubeIcon {
-    border-radius: var(--br-base);
     width: 80px;
     height: 80px;
     flex-shrink: 0;
@@ -45,7 +44,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: var(--gap-base);
   }
   .linkedinChild {
     /* border: 1px solid blue; */
@@ -56,7 +54,6 @@
     right: 0;
     bottom: 0;
     left: 0;
-    border-radius: var(--br-7xs);
     /* background-color:blue; */
   }
   .linkedinLogoIcon {
@@ -75,7 +72,6 @@
   }
   .frameGroup {
     align-self: stretch;
-    background-color: var(--white);
     overflow: hidden;
     display: flex;
     flex-direction: row;

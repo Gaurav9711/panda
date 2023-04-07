@@ -21,10 +21,6 @@
 
 .joinTheWaitlist {
   position: relative;
-
-  font-size: var(--heading-16-size);
-
-  color: var(--white);
   text-align: center;
 }
 
@@ -101,9 +97,6 @@
   /* flex-shrink: 0; */
   /* overflow: hidden; */
   text-align: center;
-  font-size: var(--heading-80-size);
-  color: var(--brand-blue);
-  font-family: var(--paragraph-20);
   
 }
 @media only screen and (max-width: 1024px) {

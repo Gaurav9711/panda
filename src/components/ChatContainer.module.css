@@ -12,8 +12,6 @@
     position: absolute;
     bottom: 64px;
     left: 6vw;
-    font-size: var(--font-size-sm);
-    font-family: var(--font-poppins);
   }
   .frameIcon {
     position: relative;
@@ -56,15 +54,13 @@
   }
   .phoneParent {
     flex-direction: row;
-    padding: var(--padding-3xs) 0;
-    gap: var(--gap-3xs);
+
   }
   .wantToTalkParent {
     position: absolute;
     top: 100px;
     left: 549px;
     flex-direction: column;
-    gap: var(--gap-7xs);
   }
   .invest {
     position: relative;
@@ -77,16 +73,12 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: var(--gap-7xs);
-    color: var(--white-off);
   }
   .companyParent,
   .investParent {
     position: absolute;
     top: 88px;
     left: 1242px;
-    gap: var(--gap-smi);
-    color: var(--white);
   }
   .companyParent {
     left: 1065px;
@@ -106,7 +98,6 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: var(--gap-11xl);
   }
   .lineParent {
     position: relative;
@@ -116,7 +107,6 @@
     flex-shrink: 0;
     overflow: hidden;
     text-align: left;
-    font-size: var(--paragraph-20-size);
     color:#F6F6F6;
     font-weight: lighter;
     font-family:serif ;
