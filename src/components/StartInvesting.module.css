@@ -16,6 +16,21 @@
     justify-content: center;
     width: 700px;
   }
+  .BIOButton{
+    cursor: pointer;
+    /* margin-right: 3vw; */
+    height: 53px;
+    width: 110px;
+    border: 2px solid #121B64;
+    padding: 20px;
+    color: white;
+    padding: 12px;
+    background-color:#121B64;
+    font-family: 'Open Sans', sans-serif;
+    border-radius:25px;
+    font-weight: bold;
+    justify-content: flex-end;
+  }
   .followUsParent {
     display: flex;
     flex-direction: column;

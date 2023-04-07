@@ -112,7 +112,7 @@
   .savings{
     width: 327px;
     height: 41px;
-    right: 1.7rem;
+    right: 1rem;
 
     /* border: 1px solid black; */
   }
@@ -127,7 +127,7 @@
     text-align: left;
     width: 327px;
     height: 42px;
-    right: 4.5rem;
+    left: -4rem;
     /* text-align-last: center ; */
 
   }
@@ -135,6 +135,7 @@
     position: relative;
     padding: 1.4rem;
     border-radius: 30px;
+    left: 2rem;
     /* right: 2.5rem; */
   }
 

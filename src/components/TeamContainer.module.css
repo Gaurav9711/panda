@@ -148,9 +148,10 @@
         gap: unset;
       }
       .meetTheTeam{
+        margin-top: 1rem;
         height: 41px;
         width: 197px;
-        font-size: 2rem;
+        font-size: 1.6rem;
       }
       .discoverThePassion{
         width: 327px;
