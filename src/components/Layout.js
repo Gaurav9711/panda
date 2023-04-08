@@ -1,18 +1,19 @@
 import React from 'react'
 import Head from 'next/head';
 import Header from './Header';
-import Footer from './Footer';
+// import Footer from './Announcement';
 import Compo from './Compo';
 import FixedContainer from './Fixed-container';
 import LearningContainer from './LearningContainer';
 import TeamContainer from './Team-container';
 import PressContainer from './PressContainer';
 import FollowUs from './FollowUs';
-import ChatContainer from './ChatContainer';
+import FOOTER1 from './FOOTER1';
 import SavingsContainer from './savings-container';
 import FdBazaar from './FdBazaar';
 import TaxSaver from './TaxSaver';
 import StartInvesting from './StartInvesting';
+import Announcement from './Announcement';
 const navbar = () => {
   return (
     <div>
@@ -24,7 +25,7 @@ const navbar = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
-      <Footer/>
+      <Announcement/>
       <Compo/>
       <FdBazaar/>
       <SavingsContainer/>
@@ -35,7 +36,7 @@ const navbar = () => {
       <PressContainer/>
       <FollowUs/>
       <StartInvesting/>
-      <ChatContainer/>
+      <FOOTER1/>
     </div>
   )
 }

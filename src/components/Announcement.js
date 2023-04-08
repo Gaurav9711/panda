@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from "./Footer.module.css";
-const Footer = () => {
+import styles from "./Announcement.module.css";
+const Announcement = () => {
   return (
     <div>
         <div className={styles.discountContainer}>
@@ -11,4 +11,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Announcement;

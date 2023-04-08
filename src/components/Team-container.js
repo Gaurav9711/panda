@@ -17,6 +17,9 @@ const TeamContainer = () => {
               <AksharContainer
                 imageIds={values.mainCardImg}
                 smallImageIds="/-linkedin.svg"
+                FirstName={values.mainName}
+                SirName={values.mainSName}
+                Designation={values.mainDesg}
               />
             </div>
             <div className={styles.quotationParent}>

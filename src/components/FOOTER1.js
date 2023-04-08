@@ -1,6 +1,6 @@
-import styles from "./ChatContainer.module.css";
+import styles from "./FOOTER1.module.css";
 
-const ChatContainer = () => {
+const Footer = () => {
   return (
     <div className={styles.lineParent}>
       <div className="ChatParent">
@@ -53,4 +53,4 @@ const ChatContainer = () => {
   );
 };
 
-export default ChatContainer;
+export default Footer;
