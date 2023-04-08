@@ -1,7 +1,8 @@
-[
     {
+        "comments":"this is for stress free container",
         "id":1,
         "heading":"Stress-Free Investing",
-        "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
+        "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+        "button":"Join the Waitlist"
     }
-]
+    

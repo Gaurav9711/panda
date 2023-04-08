@@ -1,4 +1,5 @@
 import styles from "./savings-container.module.css";
+import values from "./Savings-container.json";
 
 const SavingsContainer = () => {
   return (
@@ -7,16 +8,15 @@ const SavingsContainer = () => {
         <div className={styles.savingsParent}>
           <div className={styles.savings}>
             <span className={styles.savingsTxtContainer}>
-              <span>{`Savings `}</span>
+              <span>{values.heading }</span>
               <span className={styles.span}>++</span>
             </span>
           </div>
           <div className={styles.getAccessTo}>
-            Get access to stable and low risk investment options for goals where
-            you cannot afford losses
+            {values.content}
           </div>
           <div className={styles.saveNowWrapper}>
-            <div className={styles.saveNow}>Save Now</div>
+            <div className={styles.saveNow}>{values.button}</div>
           </div>
         </div>
       </div>

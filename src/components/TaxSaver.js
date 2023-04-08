@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './FdBazaar.module.css'
+import values from './TaxSaver.json'
 
 const FdBazaar = () => {
   return (
@@ -9,11 +10,11 @@ const FdBazaar = () => {
       <div className={styles.savingsParent}>
         <div className={styles.savings}>
           <span className={styles.savingsTxtContainer}>
-            <span>{`Tax Saver `}</span>
+            <span>{values.heading}</span>
           </span>
         </div>
         <div className={styles.getAccessTo}>
-        Choose across investments that you can easily withdraw and liquidate in times of need
+        {values.content}
         </div>
         <div className={styles.saveNowWrapper}>
           <div className={styles.saveNow}>Save your Taxes</div>

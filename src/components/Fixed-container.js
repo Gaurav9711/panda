@@ -1,15 +1,14 @@
 import InvestmentContainer from "./investment-container";
 import styles from "./fixed-container.module.css";
-
+import values from './FixedContainer.json'
 const FixedContainer = () => {
   return (
     <div className={styles.hero}>
       <div className={styles.frameParent}>
         <div className={styles.whyFixedParent}>
-          <div className={styles.whyFixed}>Why Fixed ?</div>
+          <div className={styles.whyFixed}>{values.mainHeading}</div>
           <div className={styles.chooseAcrossInvestments}>
-            Choose across investments that you can easily withdraw and liquidate
-            in times of need
+            {values.mainContent}
           </div>
         </div>
         <div className={styles.frameGroup}>
@@ -33,25 +32,25 @@ const FixedContainer = () => {
               </div>
             </div> */}
             <InvestmentContainer
-            investmentText="/frame-282.svg"
-            investmentOptionsText="Safe investments that beat inflation"
-            lowRiskHighReturnText="Low risk, High return investments that are easy to understand"
+            investmentText={values.Card1Logo}
+            investmentOptionsText={values.Card1Heading}
+            lowRiskHighReturnText={values.Card1content}
           />
           </div>
           <div className={styles.frameGroupItem}>
 
           <InvestmentContainer
-            investmentText="/frame-284.svg"
-            investmentOptionsText="Safe investments that protect capital"
-            lowRiskHighReturnText="Get access to stable and low risk investment options for goals where you cannot afford losses"
+            investmentText={values.Card2Logo}
+            investmentOptionsText={values.Card2Heading}
+            lowRiskHighReturnText={values.Card2content}
           />
           </div>
           <div className={styles.frameGroupItem}>
 
           <InvestmentContainer
-            investmentText="/frame-283.svg"
-            investmentOptionsText="Liquid investments to manage emergencies"
-            lowRiskHighReturnText="Choose across investments that you can easily withdraw and liquidate in times of need"
+            investmentText={values.Card3Logo}
+            investmentOptionsText={values.Card3Heading}
+            lowRiskHighReturnText={values.Card3content}
           />
           </div>
         </div>

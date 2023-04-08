@@ -4,13 +4,12 @@ const HeroContainer = () => {
   return (
     <div className={styles.hero}>
       <div className={styles.stressFreeInvestingParent}>
-        <div className={styles.stressFreeInvesting}>Stress-Free Investing</div>
+        <div className={styles.stressFreeInvesting}>{values.heading}</div>
         <div className={styles.loremIpsumDolor}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-          vulputate libero et velit interdum, ac aliquet odio mattis.
+         {values.content}
         </div>
         <button className={styles.joinTheWaitlistWrapper}>
-          <div className={styles.joinTheWaitlist}>Join the Waitlist</div>
+          <div className={styles.joinTheWaitlist}>{values.button}</div>
         </button>
       </div>
       <img

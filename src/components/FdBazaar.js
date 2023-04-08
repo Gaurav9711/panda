@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './FdBazaar.module.css'
-
+import values from './FdBazaar.json'
 const FdBazaar = () => {
   return (
     <div className={styles.hero}>
@@ -9,14 +9,14 @@ const FdBazaar = () => {
       <div className={styles.savingsParent}>
         <div className={styles.savings}>
           <span className={styles.savingsTxtContainer}>
-            <span>{`FD Bazaar `}</span>
+            <span>{values.heading}</span>
           </span>
         </div>
         <div className={styles.getAccessTo}>
-        Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+        {values.content}
         </div>
         <div className={styles.saveNowWrapper}>
-          <div className={styles.saveNow}>Explore FDs</div>
+          <div className={styles.saveNow}>{values.button}</div>
         </div>
       </div>
     </div>

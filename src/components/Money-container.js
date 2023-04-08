@@ -1,6 +1,6 @@
 import styles from "./Money-container.module.css";
 
-const MoneyContainer = ({ subtitleText, subtitleText1 }) => {
+const MoneyContainer = ({ subtitleText, subtitleText1 ,subtitleText2}) => {
   return (
     <div className={styles.frameParent}>
       <div className={styles.frameGroup}>
@@ -8,8 +8,7 @@ const MoneyContainer = ({ subtitleText, subtitleText1 }) => {
         <div className={styles.saveMoneyTheRightWayParent}>
           <div className={styles.saveMoneyThe}>{subtitleText1}</div>
           <div className={styles.toremIpsumDolor}>
-            Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit interdum, ac aliquet odio mattis.
+            {subtitleText2}
           </div>
         </div>
       </div>

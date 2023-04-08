@@ -1,22 +1,21 @@
 import AksharContainer from "./Akshar-container";
 import styles from "./TeamContainer.module.css";
-
+import values from './TeamContainer.json'
 const TeamContainer = () => {
   return (
     <div className={styles.hero}>
       <div className={styles.frameParent}>
         <div className={styles.meetTheTeamParent}>
-          <div className={styles.meetTheTeam}>Meet the team</div>
+          <div className={styles.meetTheTeam}>{values.mainHeading}</div>
           <div className={styles.discoverThePassion}>
-            Discover the passion, expertise, and values that drive our team and
-            fuel their commitment to excellence.
+            {values.mainContent}
           </div>
         </div>
         <div className={styles.frameGroup}>
           <div className={styles.frameContainer}>
             <div className={styles.frameWrapper}>
               <AksharContainer
-                imageIds="/frame-251@2x.png"
+                imageIds={values.mainCardImg}
                 smallImageIds="/-linkedin.svg"
               />
             </div>
@@ -32,35 +31,52 @@ const TeamContainer = () => {
                 src="/quotation1.svg"
               />
               <div className={styles.ourVisionIs}>
-                Our vision is to make safe investments with better returns
-                easily accessibly to all indians
+                {values.vision}
               </div>
             </div>
           </div>
           <div className={styles.frameDiv}>
             <AksharContainer
-              imageIds="/frame-2511@2x.png"
+              imageIds={values.Card1Logo}
               smallImageIds="/-linkedin1.svg"
+              FirstName={values.Card1FName}
+              SirName={values.Card1SName}
+              Designation={values.Card1Desg}
             />
             <AksharContainer
-              imageIds="/frame-2512@2x.png"
+              imageIds={values.Card2Logo}
               smallImageIds="/-linkedin2.svg"
+              FirstName={values.Card2FName}
+              SirName={values.Card2SName}
+              Designation={values.Card2Desg}
             />
             <AksharContainer
-              imageIds="/frame-2513@2x.png"
+              imageIds={values.Card3Logo}
               smallImageIds="/-linkedin3.svg"
+              FirstName={values.Card3FName}
+              SirName={values.Card3SName}
+              Designation={values.Card3Desg}
             />
             <AksharContainer
-              imageIds="/frame-2514@2x.png"
+              imageIds={values.Card4Logo}
               smallImageIds="/-linkedin4.svg"
+              FirstName={values.Card4FName}
+              SirName={values.Card4SName}
+              Designation={values.Card4Desg}
             />
             <AksharContainer
-              imageIds="/frame-2515@2x.png"
+              imageIds={values.Card5Logo}
               smallImageIds="/-linkedin5.svg"
+              FirstName={values.Card5FName}
+              SirName={values.Card5SName}
+              Designation={values.Card5Desg}
             />
             <AksharContainer
-              imageIds="/frame-2511@2x.png"
+              imageIds={values.Card6Logo}
               smallImageIds="/-linkedin1.svg"
+              FirstName={values.Card6FName}
+              SirName={values.Card6SName}
+              Designation={values.Card6Desg}
             />
           </div>
         </div>
