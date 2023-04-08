@@ -1,5 +1,5 @@
 import styles from "./FOOTER1.module.css";
-
+import values from "./FOOTER1.json";
 const Footer = () => {
   return (
     <div className={styles.lineParent}>
@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
           <div className={styles.phoneParent}>
             <img className={styles.frameIcon} alt="" src="/phone.svg" />
-            <div className={styles.invest +" "+ styles.side3}>Call +91 9876543210</div>
+            <div className={styles.invest +" "+ styles.side3}>Call {values.Phone}</div>
           </div>
         </div>
         <div className={styles.investParent}>
@@ -44,8 +44,7 @@ const Footer = () => {
         <div className={styles.frameGroup}>
           <img className={styles.frameIcon3} alt="" src="/frame4.svg" />
           <div className={styles.callUsAnd}>
-            Vorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit interdum, ac aliquet odio mattis.
+            {values.FixedContent}
           </div>
         </div>
       </div>
