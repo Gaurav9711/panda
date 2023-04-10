@@ -28,9 +28,11 @@ const Header = () => {
                     Best Investment Options
                 </div>
             </button>
+            <div className={styles.VectorIcon}>
+                <img className="Vector" src="Vector.png" alt="logo" />
+            </div>
         </nav>
-        //    <Image src="/Frame.png" width="100" height="100y">
-        //    </Image>
+        
     );
 };
 
